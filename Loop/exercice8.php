@@ -6,9 +6,9 @@
 	<body>
       <p>
      <?php
-$number = 1;
-for($number; $number<=15; $number ++){
-    echo $number." "."On y arrive presque <br>";
+$number = 200;
+for($number; $number>=0; $number -=12){
+    echo $number." "."Enfin !!!<br>";
 }
 ?>
         </p>
