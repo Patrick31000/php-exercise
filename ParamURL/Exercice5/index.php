@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-      <title> Exercice 1 PHP </title>
+      <title> Exercice 5 PHP ParamURL</title>
     </head>
 	<body>
       <p>

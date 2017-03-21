@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-      <title> Exercice 5 PHP </title>
+      <title> Exercice 5 PHP Array</title>
     </head>
 	<body>
       <p>

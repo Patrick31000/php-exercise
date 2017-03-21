@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <html>
     <head>
-      <title> Exercice 1 PHP Form</title>
+      <title> Exercice 5 PHP Form</title>
     </head>
 	<body>
 
     <h1>Formulaire</h1>
 
-    <form action="user.php" method="get">
+    <form action="user.php" method="post">
     <fieldset>
+    <div>
+    <select>
+  <option value="Mr">Mr</option>
+  <option value="Mme">Mme</option>
+
+</select>
+    </div>
         <div>
             <label for="nom">Nom:</label>
             <input type="text" id="nom" name="nom">
@@ -21,6 +28,7 @@
         </fieldset>
     </form>
       <p>
+      
         </p>
     </body>
 </html>

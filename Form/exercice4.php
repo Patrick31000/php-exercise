@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
     <head>
-      <title> Exercice 1 PHP Form</title>
+      <title> Exercice 4 PHP Form</title>
     </head>
 	<body>
 
     <h1>Formulaire</h1>
 
-    <form action="user.php" method="get">
+    <form action="user.php" method="post">
     <fieldset>
         <div>
             <label for="nom">Nom:</label>
@@ -21,6 +21,8 @@
         </fieldset>
     </form>
       <p>
+      Ton nom est <?php echo $_POST["nom"]; ?><br>
+      Ton prénom est <?php echo $_POST['prenom']; ?>
         </p>
     </body>
 </html>

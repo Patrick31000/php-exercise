@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-      <title> Exercice 1 PHP Form</title>
+      <title> Exercice 3 PHP Form</title>
     </head>
 	<body>
 
@@ -21,6 +21,12 @@
         </fieldset>
     </form>
       <p>
+       <?php
+echo $_GET['nom']." ";
+echo $_GET['prenom'];
+
+
+       ?>
         </p>
     </body>
 </html>
