@@ -14,7 +14,7 @@ if (($login != null)&&($mdp != null)) {
 <html>
 
 <head>
-    <title> Exercice 4 PHP GlobalVariable</title>
+    <title> Exercice 3 PHP GlobalVariable</title>
     <meta charset="utf-8" />
 </head>
 
@@ -35,8 +35,7 @@ if (($login != null)&&($mdp != null)) {
         </fieldset>
     </form>
 
-    Tes infos ont été hackées! Pour le vérifier clique ci-dessous ! <br>
-    <a href="./setcookie.php">Récupère tes cookies</a>
+
 
    <?php 
 // echo $_COOKIE['login'];

@@ -7,7 +7,7 @@
 
     <h1>Formulaire</h1>
 
-    <form action="user.php" method="post">
+    <form action="index.php" method="post">
     <fieldset>
     <div>
     <select>
